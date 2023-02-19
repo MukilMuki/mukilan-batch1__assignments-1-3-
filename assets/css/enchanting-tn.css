@@ -1,0 +1,110 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img {
+    max-width: 100%;
+    height:auto
+}
+
+.page-title{
+    background-color: #43133e;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    height:90px;
+    letter-spacing: -1px;
+    
+}
+
+.title-card{
+    width: 100%;
+}
+
+.district-table {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+
+    
+}
+
+.district-table__cell {
+    width: 33.1%;
+    padding: 30px 10px;
+}
+
+.district-table__cell:nth-child(1n){
+    display: inline-block;
+}
+
+.district__summary {
+    font-size:30px;
+    padding-top: 10px;
+}
+
+.district__name {
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.district__description{
+    padding-top:25px;
+    line-height: 20px;
+}
+
+.district-table__button {
+    background-color: #7a1655;
+    color: white;
+    padding: 10px 20px;
+    font-size: medium;
+    padding-bottom: 10px;
+    margin: 15px 0px;
+}
+
+.article-title {
+    text-align: center;
+    color: #7a1655;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-weight: 300;
+    font-size:60px;
+}
+
+.article {
+    padding: 20px 10px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: x-large;
+    line-height: 40px;
+}
+
+.footer-content p {
+    margin: auto;
+    width: 91.8%;
+    text-align: left;
+}
+
+.footer-content>p:nth-child(1){
+    font-weight: bold;
+}
+
+
+.footer-content {
+    margin-top: 19px;
+    padding: 25px;
+    background-color: #791754;
+    color: white;
+
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/assets/fonts/Roboto/Roboto-Light.ttf);
+}
